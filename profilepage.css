@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: black;
+}
+
+.head {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    margin-bottom: 10px;
+}
+
+.head-title {
+    margin-left: 20px;
+    font-size: 33px;
+}
+
+
+.head-links {
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 463px;
+    justify-content: space-around;
+}
+
+
+.head-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    width: 95px;
+    color: white;
+    font-size: 17px;
+}
+
+.login {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.center {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+}
+
+.left, .right {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.left {
+    flex: 2;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.jane-top {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.left-body {
+    padding: 20px;
+}
+
+.left-body h1,
+.left-body h3,
+.left-body h2,
+.left-body p {
+    margin: 20px 0px;
+}
+
+.marker, .gear {
+    height: 20px;
+}
+
+.jane-profile, .jane-education, .connection {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    border: 5px solid #cccccc;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.block-title {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.pic {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.num {
+    background-color: #ccc;
+    color: black;
+    font-size: 20px;
+    border-radius: 46%;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.name, .status {
+    display: flex;
+    align-items: center;
+}
+
+.connection-bottom {
+    padding: 20px;
+    border-top: 5px solid #cccccc;
+}
